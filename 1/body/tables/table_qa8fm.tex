@@ -1,0 +1,45 @@
+\begin{table}[t]
+    \renewcommand{\tablename}{Таблица}
+    \caption{cравнение методов по точности и количеству итераций для матрицы Qa8fm}
+    \label{tab:table1}
+    \begin{tabularx}{1\textwidth}{
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X |
+    }
+        \hline
+        \multirow{Название метода} &
+        \multicolumn{2}{X|}{Без предобуславливателя} &
+        \multicolumn{2}{X|}{С предобуславливателем неполное разложение Холецкого} &
+        \multicolumn{2}{X|}{С предобуславливателем LU-разложение} \\
+        \cline{2-7}
+        & Число итераций & Точность & Число итераций & Точность & Число итераций & Точность \\
+        \hline
+        bicg        &  68 & 10^{-8} & 8 & 10^{-8} & 8 & 10^{-8}  \\
+        \hline
+        bicgstab    & 100 & 10^{-8} & 8 & 10^{-8} & 9 & 10^{-8} \\
+        \hline
+        bicgstabl   & 95 & 10^{-8} & 8 & 10^{-8} & 9 & 10^{-8} \\
+        \hline
+        cgs         & 36 & 10^{-8} & 8 & 10^{-8} & 4 & 10^{-8} \\
+        \hline
+        gmres       & 65 & 10^{-8} & 8 & 10^{-8} & 10 & 10^{-5} \\
+        \hline
+        lsqr        & 500 & 10^{-8} & 8 & 10^{-8} & 9 & 10^{-8} \\
+        \hline
+        minres      & 65 & 10^{-8} & 8 & 10^{-8} & 8 & 10^{-8} \\
+        \hline
+        pcg         & 67 & 10^{-8} & 8 & 10^{-8} & 8 & 10^{-8} \\
+        \hline
+        qmr         & 64 & 10^{-8} & 8 & 10^{-8} & 8 & 10^{-8} \\
+        \hline
+        symmlq      & 67 & 10^{-6} & 7 & 10^{-8} & 8 & 10^{-7} \\
+        \hline
+        tfqmr       & 75 & 10^{-8} & 7 & 10^{-8} & 8 & 10^{-8} \\
+        \hline
+    \end{tabularx}
+\end{table}

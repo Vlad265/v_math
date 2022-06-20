@@ -1,0 +1,278 @@
+\begin{center}
+    \section*{Приложение А}
+    Скрипты методов
+\end{center}
+
+\subsection*{BICG.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = BICG(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = bicg(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = bicg(A,b,1e-8,20000,L,U);
+
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend(
+    'No Preconditioner',
+    'Default ICHOL',
+    'Default LU',
+    'Tolerance',
+    'Location',
+    'East'
+)
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/bicg.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{BICGSTAB.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = BICGSTAB(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = bicgstab(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = bicgstab(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/bicgstab.png')
+hold off
+
+clear;
+\end{lstlisting}
+
+\subsection*{BICGSTABL.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = BICGSTABL(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = bicgstabl(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = bicgstabl(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/bicgstabl.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{CGS.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = CGS(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = cgs(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = cgs(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/cgs.png')
+hold off
+
+clear;
+\end{lstlisting}
+
+\subsection*{GMRES.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = GMRES(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = gmres(A,b,[],1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = gmres(A,b,[],1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL', 'Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/gmres.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{LSQR.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = LSQR(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv,lsrv] = lsqr(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2,lsrv2] = lsqr(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL', 'Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/lsqr.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{PCG.m}
+\begin{lstlisting}
+function [] = PCG(B)
+
+b = ones(size(B,1),1);
+
+[x,fl0,rr0,it0,rv0] = pcg(B,b,1e-8,20000);
+L = ichol(B);
+[x1,fl1,rr1,it1,rv1] = bicg(B,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(B);
+[x2,fl2,rr2,it2,rv2] = pcg(B,b,1e-8,20000,L,U);
+semilogy(0:length(rv0)-1,rv0/norm(b),'-o')
+hold on
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL', 'Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/PCG.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{MINRES.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = MINRES(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv,lsrv] = minres(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2,lsrv2] = minres(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/MINRES.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{QMR.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = QMR(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = qmr(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = qmr(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/qmr.png')
+hold off
+clear;
+\end{lstlisting}
+
+\subsection*{SYMMLQ.m}
+
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = SYMMLQ(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv,lsrv] = symmlq(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2,lsrv2] = symmlq(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/symmlq.png')
+hold off
+
+clear;
+\end{lstlisting}
+
+\subsection*{TFQMR.m}
+\begin{lstlisting}
+function [rv0,rv1,rv2,it,it1,it2] = TFQMR(A)
+b = ones(size(A,1),1);
+[x,fl,rr,it,rv] = tfqmr(A,b,1e-8,20000);
+L = ichol(A);
+[x1,fl1,rr1,it1,rv1] = bicg(A,b,1e-8,20000, L, L');
+clear L;
+[L, U] = ilu(A);
+[x2,fl2,rr2,it2,rv2] = tfqmr(A,b,1e-8,20000,L,U);
+semilogy(0:length(rv)-1,rv/norm(b),'-o')
+hold on
+
+semilogy(0:length(rv1)-1,rv1/norm(b),'-o')
+semilogy(0:length(rv2)-1,rv2/norm(b),'-o')
+yline(1e-8,'r--');
+legend('No Preconditioner','Default ICHOL','Default LU','Tolerance','Location','East')
+xlabel('Iteration number')
+ylabel('Relative residual')
+exportgraphics(gcf,'image/tfqmr.png')
+hold off
+
+
+clear;
+\end{lstlisting}

@@ -1,0 +1,45 @@
+\begin{table}[t]
+    \renewcommand{\tablename}{Таблица}
+    \caption{сравнение методов по точности и количеству итерацй для матрицы Dubcova2}
+    \label{tab:table1}
+    \begin{tabularx}{1\textwidth}{
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X
+        | >{\centering\arraybackslash}X |
+    }
+        \hline
+        \multirow{Название метода} &
+        \multicolumn{2}{X|}{Без предобуславливателя} &
+        \multicolumn{2}{X|}{С предобуславливателем неполное разложение Холецкого} &
+        \multicolumn{2}{X|}{С предобуславливателем LU-разложение} \\
+        \cline{2-7}
+        & Число итераций & Точность & Число итераций & Точность & Число итераций & Точность \\
+        \hline
+        bicg & 180 & 10^{-8} & 148 & 10^{-8} & 148 & 10^{-8}  \\
+        \hline
+        bicgstab & 250 & 10^{-8} & 148 & 10^{-8} & 204 & 10^{-8} \\
+        \hline
+        bicgstabl & 270 & 10^{-8} & 150 & 10^{-8} & 180 & 10^{-8} \\
+        \hline
+        cgs & 152 & 10^{-8} & 148 & 10^{-8} & 104 & 10^{-8} \\
+        \hline
+        gmres & 180 & 10^{-8} & 148 & 10^{-8} & 147 & 10^{-8} \\
+        \hline
+        lsqr & 2000 & 10^{-8} & 144 & 10^{-8} & 2300 & 10^{-8} \\
+        \hline
+        minres & 180 & 10^{-8} & 147 & 10^{-8} & 140 & 10^{-8} \\
+        \hline
+        pcg & 180 & 10^{-8} & 147 & 10^{-8} & 147 & 10^{-8} \\
+        \hline
+        qmr & 178 & 10^{-8} & 145 & 10^{-8} & 147 & 10^{-8} \\
+        \hline
+        symmlq & 180 & 10^{-5} & 149 & 10^{-6} & 148 & 10^{-6} \\
+        \hline
+        tfqmr & 290 & 10^{-8} & 150 & 10^{-8} & 216 & 10^{-8} \\
+        \hline
+    \end{tabularx}
+\end{table}
