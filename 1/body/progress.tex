@@ -35,3 +35,41 @@
 
 На рисунках 23-32 приведены истории невязок для матрицы Thermomech_dM
 
+\input{body/img/thermomech_img.tex}
+
+В таблице 4 приведена сводная информация о использования каждого метода для матрицы Thermomech_dM.
+
+\input{body/tables/table_thermomech.tex}
+
+Из таблицы 4 видно, что в среднем всем методам с предобуславливателем понадобилось примерно одинаковое
+количество итераций (в среднем 9).
+Самое большое количество итераций понадобилось методу lsqr без предобуславливателя (500 итераций).
+Также не удалось выполнить вычисления методом gmres (ошибка Error using zeros Requested 204316x20000 (30.4GB)
+array exceeds maximum array size preference.
+Creation of arrays greater than this limit may take a long time and cause MATLAB to become unresponsive).
+
+На рисунках 33-44 приведены истории невязок для матрицы finan512
+
+\input{body/img/finan512_img.tex}
+
+В таблице 5 приведена сводная информация о использования каждого метода для матрицы Finan512.
+
+\input{body/tables/table_finan512.tex}
+
+Из таблицы 5 видно, что самое минимальное количество итераций при
+приемлемой точности понадобилось методу cgs с предобуславливателем LU-разложение (5 итераций).
+Самое большое количество итераций понадобилось методу lsqr без предобуславливателя (240 итераций).
+
+На рисунках 44-53 приведены истории невязок для матрицы G2_circuit
+
+\input{body/img/G2_img.tex}
+
+В таблице 6 приведена сводная информация о использования каждого метода для матрицы G2_circuit.
+
+\input{body/tables/table_G2.tex}
+
+Из таблицы 6 видно, что в среднем всем методам с предобуславливателем понадобилось примерно одинаковое количество итерации.
+Самое большое количество итераций понадобилось методу bicgstabl без предобуславливателя (20000 итераций).
+Также не удалось выполнить вычисления методом gmres (Ошибка Error using zeros Requested 150102x20000 (22.4GB)
+array exceeds maximum array size preference.
+Creation of arrays greater than this limit may take a long time and cause MATLAB to become Unresponsive).
