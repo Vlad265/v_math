@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.5)  19 JUN 2022 23:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.5)  29 JUN 2022 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -593,7 +593,7 @@ Package caption Info: Standard document class detected.
 \c@caption@flags=\count275
 \c@continuedfloat=\count276
 Package caption Info: hyperref package is loaded.
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count277
 \lst@gtempboxa=\box49
@@ -618,84 +618,25 @@ File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
-
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count285
+\float@exts=\toks26
+\float@box=\box51
+\@float@everytoks=\toks27
+\@floatcapt=\box52
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count285
-\l__pdf_internal_box=\box51
+\l__kernel_color_stack_int=\count286
+\l__pdf_internal_box=\box53
 )
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(/home/geomer198/Рабочий стол/ВычМат/1/out/main.aux
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `fig:image' multiply defined.
-
-
-LaTeX Warning: Label `tab:table1' multiply defined.
-
-)
+(/home/geomer198/Рабочий стол/ВычМат/1/out/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -753,7 +694,7 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box52
+\AtBeginShipoutBox=\box54
 Package hyperref Info: Link coloring OFF on input line 7.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -764,7 +705,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count286
+\c@section@level=\count287
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -778,17 +719,17 @@ LaTeX Info: Redefining \nameref on input line 7.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
+\scratchcounter=\count288
 \scratchdimen=\dimen186
-\scratchbox=\box53
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count290
+\scratchbox=\box55
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count291
 \MPscratchDim=\dimen187
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -799,9 +740,10 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count293
+\c@lstlisting=\count294
 
 (./body/title.tex
 ./body/title.tex:19: Misplaced alignment tab character &.
@@ -851,59 +793,69 @@ or  <return>  to continue without it.
 <img/dupcova/bicg.png, id=18, 378.6948pt x 294.8616pt>
 File: img/dupcova/bicg.png Graphic file (type png)
 <use img/dupcova/bicg.png>
-Package pdftex.def Info: img/dupcova/bicg.png  used on input line 3.
+Package pdftex.def Info: img/dupcova/bicg.png  used on input line 4.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
 <img/dupcova/bicgstab.png, id=19, 378.6948pt x 294.8616pt>
 File: img/dupcova/bicgstab.png Graphic file (type png)
 <use img/dupcova/bicgstab.png>
-Package pdftex.def Info: img/dupcova/bicgstab.png  used on input line 10.
+Package pdftex.def Info: img/dupcova/bicgstab.png  used on input line 11.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/bicgstabl.png, id=20, 378.6948pt x 294.8616pt>
+ [2 <./img/dupcova/bicg.png (PNG copy)>]
+<img/dupcova/bicgstabl.png, id=31, 378.6948pt x 294.8616pt>
 File: img/dupcova/bicgstabl.png Graphic file (type png)
 <use img/dupcova/bicgstabl.png>
-Package pdftex.def Info: img/dupcova/bicgstabl.png  used on input line 17.
+Package pdftex.def Info: img/dupcova/bicgstabl.png  used on input line 18.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/cgs.png, id=21, 378.6948pt x 292.4526pt>
+<img/dupcova/cgs.png, id=32, 378.6948pt x 292.4526pt>
 File: img/dupcova/cgs.png Graphic file (type png)
 <use img/dupcova/cgs.png>
-Package pdftex.def Info: img/dupcova/cgs.png  used on input line 24.
+Package pdftex.def Info: img/dupcova/cgs.png  used on input line 25.
 (pdftex.def)             Requested size: 265.08453pt x 204.71542pt.
-<img/dupcova/gmres.png, id=22, 378.6948pt x 294.8616pt>
+ [3 <./img/dupcova/bicgstab.png (PNG copy)> <./img/dupcova/bicgstabl.png (PNG c
+opy)>]
+<img/dupcova/gmres.png, id=39, 378.6948pt x 294.8616pt>
 File: img/dupcova/gmres.png Graphic file (type png)
 <use img/dupcova/gmres.png>
-Package pdftex.def Info: img/dupcova/gmres.png  used on input line 31.
+Package pdftex.def Info: img/dupcova/gmres.png  used on input line 32.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/lsqr.png, id=23, 381.1038pt x 294.8616pt>
+<img/dupcova/lsqr.png, id=40, 381.1038pt x 294.8616pt>
 File: img/dupcova/lsqr.png Graphic file (type png)
 <use img/dupcova/lsqr.png>
-Package pdftex.def Info: img/dupcova/lsqr.png  used on input line 38.
+Package pdftex.def Info: img/dupcova/lsqr.png  used on input line 39.
 (pdftex.def)             Requested size: 266.77083pt x 206.4017pt.
-<img/dupcova/minres.png, id=24, 378.6948pt x 294.8616pt>
+
+[4 <./img/dupcova/cgs.png (PNG copy)> <./img/dupcova/gmres.png (PNG copy)>]
+<img/dupcova/minres.png, id=47, 378.6948pt x 294.8616pt>
 File: img/dupcova/minres.png Graphic file (type png)
 <use img/dupcova/minres.png>
-Package pdftex.def Info: img/dupcova/minres.png  used on input line 45.
+Package pdftex.def Info: img/dupcova/minres.png  used on input line 46.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/pcg.png, id=25, 378.6948pt x 294.8616pt>
+<img/dupcova/pcg.png, id=48, 378.6948pt x 294.8616pt>
 File: img/dupcova/pcg.png Graphic file (type png)
 <use img/dupcova/pcg.png>
-Package pdftex.def Info: img/dupcova/pcg.png  used on input line 52.
+Package pdftex.def Info: img/dupcova/pcg.png  used on input line 53.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/qmr.png, id=26, 378.6948pt x 294.8616pt>
+
+[5 <./img/dupcova/lsqr.png (PNG copy)> <./img/dupcova/minres.png (PNG copy)>]
+<img/dupcova/qmr.png, id=55, 378.6948pt x 294.8616pt>
 File: img/dupcova/qmr.png Graphic file (type png)
 <use img/dupcova/qmr.png>
-Package pdftex.def Info: img/dupcova/qmr.png  used on input line 59.
+Package pdftex.def Info: img/dupcova/qmr.png  used on input line 60.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/symmlq.png, id=27, 378.6948pt x 294.8616pt>
+<img/dupcova/symmlq.png, id=56, 378.6948pt x 294.8616pt>
 File: img/dupcova/symmlq.png Graphic file (type png)
 <use img/dupcova/symmlq.png>
-Package pdftex.def Info: img/dupcova/symmlq.png  used on input line 66.
+Package pdftex.def Info: img/dupcova/symmlq.png  used on input line 67.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/dupcova/tfqmr.png, id=28, 378.6948pt x 294.8616pt>
+
+[6 <./img/dupcova/pcg.png (PNG copy)> <./img/dupcova/qmr.png (PNG copy)>]
+<img/dupcova/tfqmr.png, id=63, 378.6948pt x 294.8616pt>
 File: img/dupcova/tfqmr.png Graphic file (type png)
 <use img/dupcova/tfqmr.png>
-Package pdftex.def Info: img/dupcova/tfqmr.png  used on input line 73.
+Package pdftex.def Info: img/dupcova/tfqmr.png  used on input line 74.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-) (./body/tables/table_dubcova.tex
+)
+(./body/tables/table_dubcova.tex
 ./body/tables/table_dubcova.tex:44: Undefined control sequence.
 <recently read> \multirow 
                           
@@ -8539,7 +8491,8 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
+) [7 <./img/dupcova/symmlq.png (PNG copy)> <./img/dupcova/tfqmr.png (PNG copy)>
+]
 ./body/progress.tex:22: Missing $ inserted.
 <inserted text> 
                 $
@@ -8580,63 +8533,76 @@ Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
 Missing character: There is no � in font cmr10!
-[2 <./img/dupcova/bicg.png (PNG copy)>] [3 <./img/dupcova/bicgstab.png (PNG cop
-y)> <./img/dupcova/bicgstabl.png (PNG copy)> <./img/dupcova/cgs.png (PNG copy)>
-] [4 <./img/dupcova/gmres.png (PNG copy)> <./img/dupcova/lsqr.png (PNG copy)> <
-./img/dupcova/minres.png (PNG copy)>] [5 <./img/dupcova/pcg.png (PNG copy)> <./
-img/dupcova/qmr.png (PNG copy)> <./img/dupcova/symmlq.png (PNG copy)>]
 (./body/img/qa8fm_img.tex
-<img/qa8fm/bicg.png, id=61, 375.804pt x 294.8616pt>
+
+./body/img/qa8fm_img.tex:3: Package keyval Error: inner undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...graphics[scale=0.70, inner]{img/qa8fm/bicg}
+                                                  }
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<img/qa8fm/bicg.png, id=71, 375.804pt x 294.8616pt>
 File: img/qa8fm/bicg.png Graphic file (type png)
 <use img/qa8fm/bicg.png>
 Package pdftex.def Info: img/qa8fm/bicg.png  used on input line 3.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/bicgstab.png, id=62, 378.6948pt x 294.8616pt>
+<img/qa8fm/bicgstab.png, id=72, 378.6948pt x 294.8616pt>
 File: img/qa8fm/bicgstab.png Graphic file (type png)
 <use img/qa8fm/bicgstab.png>
 Package pdftex.def Info: img/qa8fm/bicgstab.png  used on input line 10.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/qa8fm/bicgstabl.png, id=63, 378.6948pt x 294.8616pt>
+[8 <./img/qa8fm/bicg.png (PNG copy)>]
+<img/qa8fm/bicgstabl.png, id=83, 378.6948pt x 294.8616pt>
 File: img/qa8fm/bicgstabl.png Graphic file (type png)
 <use img/qa8fm/bicgstabl.png>
 Package pdftex.def Info: img/qa8fm/bicgstabl.png  used on input line 17.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/qa8fm/cgs.png, id=64, 375.804pt x 294.8616pt>
+<img/qa8fm/cgs.png, id=84, 375.804pt x 294.8616pt>
 File: img/qa8fm/cgs.png Graphic file (type png)
 <use img/qa8fm/cgs.png>
 Package pdftex.def Info: img/qa8fm/cgs.png  used on input line 24.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/gmres.png, id=65, 375.804pt x 294.8616pt>
+ [9 <./img/qa8fm/bicgstab.png (PNG copy)> <./img/qa8fm/bicgstabl.png (PNG copy)
+>]
+<img/qa8fm/gmres.png, id=91, 375.804pt x 294.8616pt>
 File: img/qa8fm/gmres.png Graphic file (type png)
 <use img/qa8fm/gmres.png>
 Package pdftex.def Info: img/qa8fm/gmres.png  used on input line 31.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/lsqr.png, id=66, 378.6948pt x 294.8616pt>
+<img/qa8fm/lsqr.png, id=92, 378.6948pt x 294.8616pt>
 File: img/qa8fm/lsqr.png Graphic file (type png)
 <use img/qa8fm/lsqr.png>
 Package pdftex.def Info: img/qa8fm/lsqr.png  used on input line 38.
 (pdftex.def)             Requested size: 265.08453pt x 206.4017pt.
-<img/qa8fm/minres.png, id=67, 375.804pt x 294.8616pt>
+ [10 <./img/qa8fm/cgs.png (PNG copy)> <./img/qa8fm/gmres.png (PNG copy)>]
+<img/qa8fm/minres.png, id=99, 375.804pt x 294.8616pt>
 File: img/qa8fm/minres.png Graphic file (type png)
 <use img/qa8fm/minres.png>
 Package pdftex.def Info: img/qa8fm/minres.png  used on input line 45.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/pcg.png, id=68, 375.804pt x 294.8616pt>
+<img/qa8fm/pcg.png, id=100, 375.804pt x 294.8616pt>
 File: img/qa8fm/pcg.png Graphic file (type png)
 <use img/qa8fm/pcg.png>
 Package pdftex.def Info: img/qa8fm/pcg.png  used on input line 52.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/qmr.png, id=69, 375.804pt x 294.8616pt>
+ [11 <./img/qa8fm/lsqr.png (PNG copy)> <./img/qa8fm/minres.png (PNG copy)>]
+<img/qa8fm/qmr.png, id=107, 375.804pt x 294.8616pt>
 File: img/qa8fm/qmr.png Graphic file (type png)
 <use img/qa8fm/qmr.png>
 Package pdftex.def Info: img/qa8fm/qmr.png  used on input line 59.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/symmlq.png, id=70, 375.804pt x 294.8616pt>
+<img/qa8fm/symmlq.png, id=108, 375.804pt x 294.8616pt>
 File: img/qa8fm/symmlq.png Graphic file (type png)
 <use img/qa8fm/symmlq.png>
 Package pdftex.def Info: img/qa8fm/symmlq.png  used on input line 66.
 (pdftex.def)             Requested size: 263.061pt x 206.4017pt.
-<img/qa8fm/tfqmr.png, id=71, 375.804pt x 294.8616pt>
+ [12 <./img/qa8fm/pcg.png (PNG copy)> <./img/qa8fm/qmr.png (PNG copy)>]
+<img/qa8fm/tfqmr.png, id=115, 375.804pt x 294.8616pt>
 File: img/qa8fm/tfqmr.png Graphic file (type png)
 <use img/qa8fm/tfqmr.png>
 Package pdftex.def Info: img/qa8fm/tfqmr.png  used on input line 73.
@@ -16277,7 +16243,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-)
+) [13 <./img/qa8fm/symmlq.png (PNG copy)> <./img/qa8fm/tfqmr.png (PNG copy)>]
 ./body/progress.tex:36: Missing $ inserted.
 <inserted text> 
                 $
@@ -17067,12 +17033,6 @@ Overfull \hbox (47.39984pt too wide) in paragraph at lines 3--1
 /it/10 bicgstabl:Qa\OT1/cmr/m/n/10 8\OML/cmm/m/it/10 fm \OMS/cmsy/m/n/10 ^^@
  []
 
-[6 <./img/dupcova/tfqmr.png (PNG copy)> <./img/qa8fm/bicg.png (PNG copy)>]
-[7 <./img/qa8fm/bicgstab.png (PNG copy)> <./img/qa8fm/bicgstabl.png (PNG copy)>
- <./img/qa8fm/cgs.png (PNG copy)>] [8 <./img/qa8fm/gmres.png (PNG copy)> <./img
-/qa8fm/lsqr.png (PNG copy)> <./img/qa8fm/minres.png (PNG copy)>] [9 <./img/qa8f
-m/pcg.png (PNG copy)> <./img/qa8fm/qmr.png (PNG copy)> <./img/qa8fm/symmlq.png 
-(PNG copy)>]
 
 ./body/app.tex:4: LaTeX Error: \begin{document} ended by \end{center}.
 
@@ -17093,37 +17053,37 @@ l.4 \end{center}
                 
 Things are pretty mixed up, but I think the worst is over.
 
-[10] [11 <./img/qa8fm/tfqmr.png (PNG copy)>]
+[14] [15]
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 52--53
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[12]
+
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 76--77
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
+[16]
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 99--100
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[13]
+
 Overfull \hbox (38.17967pt too wide) in paragraph at lines 123--124
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
+[17]
 Overfull \hbox (38.17967pt too wide) in paragraph at lines 147--148
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[14]
+
 Overfull \hbox (38.17967pt too wide) in paragraph at lines 172--173
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[15]
+[18]
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 196--197
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -17133,19 +17093,19 @@ Overfull \hbox (32.18109pt too wide) in paragraph at lines 220--221
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[16]
+[19]
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 245--246
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
+[20]
 Overfull \hbox (32.18109pt too wide) in paragraph at lines 270--271
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
- [17]
+ [21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
  (/home/geomer198/Рабочий стол/ВычМат/1/out/main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
@@ -17154,18 +17114,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 14.
  ) 
 Here is how much of TeX's memory you used:
- 14740 strings out of 482657
- 216686 string characters out of 5957839
- 496923 words of memory out of 5000000
- 29219 multiletter control sequences out of 15000+600000
+ 14816 strings out of 482657
+ 217672 string characters out of 5957839
+ 491660 words of memory out of 5000000
+ 29287 multiletter control sequences out of 15000+600000
  539597 words of font info for 35 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 44i,11n,44p,292b,1773s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,11n,44p,292b,1769s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/geomer198/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.6
 00pk> </home/geomer198/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
 000.600pk> </home/geomer198/.texlive2019/texmf-var/fonts/pk/ljfour/lh/lh-t2a/la
@@ -17178,10 +17138,10 @@ m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
 Output written on "/home/geomer198/Рабочий стол/ВычМат/1/out/m
-ain.pdf" (17 pages, 1579770 bytes).
+ain.pdf" (21 pages, 1580149 bytes).
 PDF statistics:
- 690 PDF objects out of 1000 (max. 8388607)
- 442 compressed objects within 5 object streams
- 299 named destinations out of 1000 (max. 500000)
+ 708 PDF objects out of 1000 (max. 8388607)
+ 456 compressed objects within 5 object streams
+ 303 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
