@@ -1,0 +1,293 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9376,        283]
+NotebookOptionsPosition[      8464,        258]
+NotebookOutlinePosition[      8853,        274]
+CellTagsIndexPosition[      8810,        271]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{
+     RowBox[{"x", "^", "4"}], "+", 
+     RowBox[{"x", "^", "3"}], "-", 
+     RowBox[{"5", "*", "x"}], "-", "12"}], "==", "0"}], ",", "x"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.872783639195425*^9, 3.8727836797455997`*^9}},
+ CellLabel->
+  "In[146]:=",ExpressionUUID->"82676876-ff90-43a7-bc5a-7c57a64d1305"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     InterpretationBox[
+      TemplateBox[{"Root", 
+        InterpretationBox[
+         StyleBox[
+          TemplateBox[{"\"-1.70\"", 
+            DynamicBox[
+             FEPrivate`FrontEndResource[
+             "FEExpressions", "NumericalApproximationElider"]]}, 
+           "RowDefault"], ShowStringCharacters -> 
+          False], -1.70379946103133961265996276779333129525`15.\
+954589770191003, Editable -> False], 
+        TagBox[
+         RowBox[{"Root", "[", 
+           RowBox[{
+             RowBox[{
+               RowBox[{
+                 RowBox[{"-", "12"}], "-", 
+                 RowBox[{"5", " ", "#1"}], "+", 
+                 SuperscriptBox["#1", "3"], "+", 
+                 SuperscriptBox["#1", "4"]}], "&"}], ",", "1"}], "]"}], 
+         Short[#, 7]& ], -1.7037994610313396`},
+       "NumericalApproximation"],
+      Root[-12 - 5 # + #^3 + #^4& , 1, 0]]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     InterpretationBox[
+      TemplateBox[{"Root", 
+        InterpretationBox[
+         StyleBox[
+          TemplateBox[{"\"1.95\"", 
+            DynamicBox[
+             FEPrivate`FrontEndResource[
+             "FEExpressions", "NumericalApproximationElider"]]}, 
+           "RowDefault"], ShowStringCharacters -> False], 
+         1.94655582876638799660895529086701571941`15.954589770191003, 
+         Editable -> False], 
+        TagBox[
+         RowBox[{"Root", "[", 
+           RowBox[{
+             RowBox[{
+               RowBox[{
+                 RowBox[{"-", "12"}], "-", 
+                 RowBox[{"5", " ", "#1"}], "+", 
+                 SuperscriptBox["#1", "3"], "+", 
+                 SuperscriptBox["#1", "4"]}], "&"}], ",", "2"}], "]"}], 
+         Short[#, 7]& ], 1.946555828766388},
+       "NumericalApproximation"],
+      Root[-12 - 5 # + #^3 + #^4& , 2, 0]]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     InterpretationBox[
+      TemplateBox[{"Root", 
+        RowBox[{
+          InterpretationBox[
+           StyleBox[
+            TemplateBox[{"\"-0.621\"", 
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEExpressions", "NumericalApproximationElider"]]}, 
+             "RowDefault"], ShowStringCharacters -> 
+            False], -0.62137818386752419197449626153684221208`15.\
+61921281675983, Editable -> False], "-", 
+          RowBox[{
+            InterpretationBox[
+             StyleBox[
+              TemplateBox[{"\"1.80\"", 
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEExpressions", "NumericalApproximationElider"]]}, 
+               "RowDefault"], ShowStringCharacters -> False], 
+             1.79780892932036673315110419935081154108`16.08060034847585, 
+             Editable -> False], " ", "\[ImaginaryI]"}]}], 
+        TagBox[
+         RowBox[{"Root", "[", 
+           RowBox[{
+             RowBox[{
+               RowBox[{
+                 RowBox[{"-", "12"}], "-", 
+                 RowBox[{"5", " ", "#1"}], "+", 
+                 SuperscriptBox["#1", "3"], "+", 
+                 SuperscriptBox["#1", "4"]}], "&"}], ",", "3"}], "]"}], 
+         Short[#, 7]& ], 
+        Complex[-0.6213781838675242, -1.7978089293203667`]},
+       "NumericalApproximation"],
+      Root[-12 - 5 # + #^3 + #^4& , 3, 0]]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", "\[Rule]", 
+     InterpretationBox[
+      TemplateBox[{"Root", 
+        RowBox[{
+          InterpretationBox[
+           StyleBox[
+            TemplateBox[{"\"-0.621\"", 
+              DynamicBox[
+               FEPrivate`FrontEndResource[
+               "FEExpressions", "NumericalApproximationElider"]]}, 
+             "RowDefault"], ShowStringCharacters -> 
+            False], -0.62137818386752419197449626153684221208`15.\
+61921281675983, Editable -> False], "+", 
+          RowBox[{
+            InterpretationBox[
+             StyleBox[
+              TemplateBox[{"\"1.80\"", 
+                DynamicBox[
+                 FEPrivate`FrontEndResource[
+                 "FEExpressions", "NumericalApproximationElider"]]}, 
+               "RowDefault"], ShowStringCharacters -> False], 
+             1.79780892932036673315110419935081154108`16.08060034847585, 
+             Editable -> False], " ", "\[ImaginaryI]"}]}], 
+        TagBox[
+         RowBox[{"Root", "[", 
+           RowBox[{
+             RowBox[{
+               RowBox[{
+                 RowBox[{"-", "12"}], "-", 
+                 RowBox[{"5", " ", "#1"}], "+", 
+                 SuperscriptBox["#1", "3"], "+", 
+                 SuperscriptBox["#1", "4"]}], "&"}], ",", "4"}], "]"}], 
+         Short[#, 7]& ], 
+        Complex[-0.6213781838675242, 1.7978089293203667`]},
+       "NumericalApproximation"],
+      Root[-12 - 5 # + #^3 + #^4& , 4, 0]]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{{3.872783661033022*^9, 3.8727836852527742`*^9}},
+ CellLabel->
+  "Out[146]=",ExpressionUUID->"26355179-b01c-4304-a5be-b897230b8fa3"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"a", "*", "x"}], "+", 
+       RowBox[{"b", "*", "y"}]}], "==", "c"}], ",", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"s", "*", "x"}], "+", 
+       RowBox[{"f", "*", "y"}]}], "==", "h"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", "y"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.872783691634362*^9, 3.872783734951079*^9}},
+ CellLabel->
+  "In[148]:=",ExpressionUUID->"f7ec5619-9840-4038-982a-22f550b529ef"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"x", "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "3"}], " ", "b"}], "+", 
+        RowBox[{"c", " ", "f"}]}], 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "a"}], " ", "f"}], "+", 
+        RowBox[{"b", " ", "s"}]}]]}]}], ",", 
+    RowBox[{"y", "\[Rule]", 
+     RowBox[{"-", 
+      FractionBox[
+       RowBox[{
+        RowBox[{"3", " ", "a"}], "-", 
+        RowBox[{"c", " ", "s"}]}], 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "a"}], " ", "f"}], "+", 
+        RowBox[{"b", " ", "s"}]}]]}]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.87278380331293*^9},
+ CellLabel->
+  "Out[148]=",ExpressionUUID->"85c26b21-74d6-4bb5-b4f6-61cabb6622c2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"LinearSolve", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"a", ",", "b"}], "}"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"s", ",", "f"}], "}"}]}], "}"}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"c", ",", "h"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.872783805742146*^9, 3.8727838314695787`*^9}},
+ CellLabel->
+  "In[150]:=",ExpressionUUID->"857ee77f-c295-4b14-9c34-35ff384c9841"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   FractionBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{"-", "3"}], " ", "b"}], "+", 
+     RowBox[{"c", " ", "f"}]}], 
+    RowBox[{
+     RowBox[{"a", " ", "f"}], "-", 
+     RowBox[{"b", " ", "s"}]}]], ",", 
+   FractionBox[
+    RowBox[{
+     RowBox[{"3", " ", "a"}], "-", 
+     RowBox[{"c", " ", "s"}]}], 
+    RowBox[{
+     RowBox[{"a", " ", "f"}], "-", 
+     RowBox[{"b", " ", "s"}]}]]}], "}"}]], "Output",
+ CellChangeTimes->{{3.872783837873866*^9, 3.8727838457251577`*^9}},
+ CellLabel->
+  "Out[150]=",ExpressionUUID->"a824e8c2-22ed-456e-bf9f-64ff9cfc0c29"]
+}, Open  ]]
+},
+WindowSize->{1440, 762},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"35b50d2f-77e3-4a44-870e-cc1ac5172bae"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 384, 11, 46, "Input",ExpressionUUID->"82676876-ff90-43a7-bc5a-7c57a64d1305"],
+Cell[967, 35, 5009, 129, 60, "Output",ExpressionUUID->"26355179-b01c-4304-a5be-b897230b8fa3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6013, 169, 548, 17, 46, "Input",ExpressionUUID->"f7ec5619-9840-4038-982a-22f550b529ef"],
+Cell[6564, 188, 794, 27, 74, "Output",ExpressionUUID->"85c26b21-74d6-4bb5-b4f6-61cabb6622c2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7395, 220, 452, 13, 48, "Input",ExpressionUUID->"857ee77f-c295-4b14-9c34-35ff384c9841"],
+Cell[7850, 235, 598, 20, 74, "Output",ExpressionUUID->"a824e8c2-22ed-456e-bf9f-64ff9cfc0c29"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

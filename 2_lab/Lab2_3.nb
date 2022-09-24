@@ -1,0 +1,73 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1789,         63]
+NotebookOptionsPosition[      1324,         46]
+NotebookOutlinePosition[      1713,         62]
+CellTagsIndexPosition[      1670,         59]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"D", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"2", "*", 
+     RowBox[{"x", "^", "5"}]}], "-", 
+    RowBox[{"8", "*", 
+     RowBox[{"x", "^", "4"}]}], "+", 
+    RowBox[{"Sin", "[", "x", "]"}]}], ",", " ", "x"}], "]"}]], "Input",
+ CellChangeTimes->{{3.872774862394944*^9, 3.8727748950406446`*^9}},
+ CellLabel->"In[35]:=",ExpressionUUID->"dbb45e73-8a1e-4994-9081-243e8e7c66bd"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"-", "32"}], " ", 
+   SuperscriptBox["x", "3"]}], "+", 
+  RowBox[{"10", " ", 
+   SuperscriptBox["x", "4"]}], "+", 
+  RowBox[{"Cos", "[", "x", "]"}]}]], "Output",
+ CellChangeTimes->{3.872774897685156*^9},
+ CellLabel->"Out[35]=",ExpressionUUID->"4b33dcad-2134-4f41-9a4e-8e2d918c6022"]
+}, Open  ]]
+},
+WindowSize->{1440, 762},
+WindowMargins->{{0, Automatic}, {0, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"7abbfa37-d0fe-4ad0-b194-521852cb6a63"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 397, 10, 48, "Input",ExpressionUUID->"dbb45e73-8a1e-4994-9081-243e8e7c66bd"],
+Cell[980, 34, 328, 9, 36, "Output",ExpressionUUID->"4b33dcad-2134-4f41-9a4e-8e2d918c6022"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

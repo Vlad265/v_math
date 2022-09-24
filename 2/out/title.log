@@ -1,0 +1,1405 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.6.5)  5 SEP 2022 14:23
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**title.tex
+(./title.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+
+./title.tex:2: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 2--2
+[] 
+ []
+
+
+./title.tex:3: Package inputenc Error: Unicode character М (U+041C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     М
+          ИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character И (U+0418)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИ
+            НИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Н (U+041D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИН
+              ИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character И (U+0418)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИ
+                СТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character С (U+0421)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИС
+                  ТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Т (U+0422)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТ
+                    ЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Е (U+0415)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕ
+                      РСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Р (U+0420)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕР
+                        СТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character С (U+0421)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРС
+                          ТВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Т (U+0422)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТ
+                            ВО НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character В (U+0412)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВ
+                              О НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character О (U+041E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО
+                                 НАУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Н (U+041D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО Н
+                                   АУКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character А (U+0410)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НА
+                                     УКИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character У (U+0423)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НАУ
+                                       КИ И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character К (U+041A)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НАУК
+                                         И И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character И (U+0418)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НАУКИ
+                                            И ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character И (U+0418)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НАУКИ И
+                                               ВЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character В (U+0412)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3     МИНИСТЕРСТВО НАУКИ И В
+                                                 ЫСШЕГО ОБРАЗОВ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Ы (U+042B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...МИНИСТЕРСТВО НАУКИ И ВЫ
+                                                  СШЕГО ОБРАЗОВ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character С (U+0421)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ИНИСТЕРСТВО НАУКИ И ВЫС
+                                                  ШЕГО ОБРАЗОВА�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Ш (U+0428)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...НИСТЕРСТВО НАУКИ И ВЫСШ
+                                                  ЕГО ОБРАЗОВАН�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Е (U+0415)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ИСТЕРСТВО НАУКИ И ВЫСШЕ
+                                                  ГО ОБРАЗОВАНИ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Г (U+0413)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...СТЕРСТВО НАУКИ И ВЫСШЕГ
+                                                  О ОБРАЗОВАНИЯ ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character О (U+041E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...ТЕРСТВО НАУКИ И ВЫСШЕГО
+                                                   ОБРАЗОВАНИЯ Р...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character О (U+041E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�РСТВО НАУКИ И ВЫСШЕГО О
+                                                  БРАЗОВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Б (U+0411)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�СТВО НАУКИ И ВЫСШЕГО ОБ
+                                                  РАЗОВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Р (U+0420)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ТВО НАУКИ И ВЫСШЕГО ОБР
+                                                  АЗОВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character А (U+0410)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ВО НАУКИ И ВЫСШЕГО ОБРА
+                                                  ЗОВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character З (U+0417)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�О НАУКИ И ВЫСШЕГО ОБРАЗ
+                                                  ОВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character О (U+041E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...� НАУКИ И ВЫСШЕГО ОБРАЗО
+                                                  ВАНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character В (U+0412)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...НАУКИ И ВЫСШЕГО ОБРАЗОВ
+                                                  АНИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character А (U+0410)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...АУКИ И ВЫСШЕГО ОБРАЗОВА
+                                                  НИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Н (U+041D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...УКИ И ВЫСШЕГО ОБРАЗОВАН
+                                                  ИЯ РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character И (U+0418)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...КИ И ВЫСШЕГО ОБРАЗОВАНИ
+                                                  Я РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Я (U+042F)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...И И ВЫСШЕГО ОБРАЗОВАНИЯ
+                                                   РФ\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Р (U+0420)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...И ВЫСШЕГО ОБРАЗОВАНИЯ Р
+                                                  Ф\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: Package inputenc Error: Unicode character Ф (U+0424)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ... ВЫСШЕГО ОБРАЗОВАНИЯ РФ
+                                                  \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:3: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...�ЫСШЕГО ОБРАЗОВАНИЯ РФ\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+./title.tex:4: Package inputenc Error: Unicode character Ф (U+0424)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Ф
+          едеральное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Фе
+            деральное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character д (U+0434)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Фед
+              еральное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Феде
+                ральное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character р (U+0440)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федер
+                  альное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федера
+                    льное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character л (U+043B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федерал
+                      ьное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ь (U+044C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федераль
+                        ное государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральн
+                          ое государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федерально
+                            е государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное
+                               государственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character г (U+0433)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное г
+                                 осударственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное го
+                                   сударственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character с (U+0441)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное гос
+                                     ударственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character у (U+0443)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное госу
+                                       дарственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character д (U+0434)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное госуд
+                                         арственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное госуда
+                                           рственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character р (U+0440)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное государ
+                                             ственное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character с (U+0441)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное государс
+                                               твенное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character т (U+0442)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     Федеральное государст
+                                                 венное бюджетн...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character в (U+0432)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...Федеральное государств
+                                                  енное бюджетн�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...едеральное государстве
+                                                  нное бюджетно�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...деральное государствен
+                                                  ное бюджетное ...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...еральное государственн
+                                                  ое бюджетное о...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...ральное государственно
+                                                  е бюджетное об...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...альное государственное
+                                                   бюджетное обр...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character б (U+0431)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ьное государственное б
+                                                  юджетное обра�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ю (U+044E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ное государственное бю
+                                                  джетное образ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character д (U+0434)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ое государственное бюд
+                                                  жетное образо�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ж (U+0436)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�е государственное бюдж
+                                                  етное образов�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...� государственное бюдже
+                                                  тное образова�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character т (U+0442)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...государственное бюджет
+                                                  ное образоват�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...осударственное бюджетн
+                                                  ое образовате�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...сударственное бюджетно
+                                                  е образовател�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...ударственное бюджетное
+                                                   образователь�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�арственное бюджетное о
+                                                  бразовательно...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character б (U+0431)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�рственное бюджетное об
+                                                  разовательное...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character р (U+0440)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ственное бюджетное обр
+                                                  азовательное �...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�твенное бюджетное обра
+                                                  зовательное у�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character з (U+0437)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�венное бюджетное образ
+                                                  овательное уч�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�енное бюджетное образо
+                                                  вательное учр�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character в (U+0432)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�нное бюджетное образов
+                                                  ательное учре�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character а (U+0430)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ное бюджетное образова
+                                                  тельное учреж�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character т (U+0442)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ое бюджетное образоват
+                                                  ельное учрежд�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�е бюджетное образовате
+                                                  льное учрежде�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character л (U+043B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...� бюджетное образовател
+                                                  ьное учрежден�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ь (U+044C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...бюджетное образователь
+                                                  ное учреждение\\
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...юджетное образовательн
+                                                  ое учреждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character о (U+043E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...джетное образовательно
+                                                  е учреждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...жетное образовательное
+                                                   учреждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character у (U+0443)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�тное образовательное у
+                                                  чреждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ч (U+0447)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ное образовательное уч
+                                                  реждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character р (U+0440)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�ое образовательное учр
+                                                  еждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...�е образовательное учре
+                                                  ждение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character ж (U+0436)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...� образовательное учреж
+                                                  дение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character д (U+0434)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...образовательное учрежд
+                                                  ение\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...бразовательное учрежде
+                                                  ние\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character н (U+043D)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...разовательное учрежден
+                                                  ие\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character и (U+0438)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...азовательное учреждени
+                                                  е\\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: Package inputenc Error: Unicode character е (U+0435)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...зовательное учреждение
+                                                  \\
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./title.tex:4: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 ...овательное учреждение\\
+                                                  
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 55 strings out of 482657
+ 918 string characters out of 5957839
+ 232506 words of memory out of 5000000
+ 15184 multiletter control sequences out of 15000+600000
+ 532338 words of font info for 24 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 12i,1n,15p,148b,99s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+./title.tex:4:  ==> Fatal error occurred, no output PDF file produced!
